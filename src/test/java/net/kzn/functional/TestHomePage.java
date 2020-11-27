@@ -23,7 +23,7 @@ public class TestHomePage {
 
 	@Test
 	public void testTitle() {
-		driver.get("http://localhost:8080/spring-project/");
+		driver.get("http://192.168.26.54:9000/spring-project/");
 		String title = driver.getTitle();
 		System.out.println("Title of the website is: " + title);
 		Assert.assertTrue(title.contains("Jenkins"), "Does not contain Jenkins in the title!");
