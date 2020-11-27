@@ -13,7 +13,7 @@ public class TestHomePage {
 
 	@BeforeTest
 	public void beforeTest() {
-		driver = Drivers.getDrivers("chrome");
+		driver = Drivers.getDrivers("C:/chromedriver.exe");
 	}
 
 	@AfterTest
